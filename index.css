@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-shadow: 1px 1px 7px black;
+  }
+  
+  nav a:hover {
+    color: yellow;
+  }
